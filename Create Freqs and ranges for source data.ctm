@@ -257,7 +257,7 @@ RUN;
 
 ##end
 
-filename outcsv "/home/sasdemo/Claims/CLM_DATA/OBS_ALL.CSV";
+filename outcsv "/home/sasdemo/OBS_ALL.CSV";
 
 proc export data=WORK.ALL_OBS
             outfile=outcsv
